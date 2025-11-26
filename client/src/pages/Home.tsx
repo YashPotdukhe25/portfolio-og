@@ -158,7 +158,7 @@ export default function Home() {
                   <a href="https://linkedin.com" target="_blank"><Linkedin className="h-5 w-5" /></a>
                 </Button>
                 <Button variant="outline" size="icon" asChild>
-                  <a href="mailto:contact@yashuu.dev"><Mail className="h-5 w-5" /></a>
+                  <a href="mailto:yashpotdukhe25@gmail.com"><Mail className="h-5 w-5" /></a>
                 </Button>
               </div>
             </motion.div>
