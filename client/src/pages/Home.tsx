@@ -155,7 +155,7 @@ export default function Home() {
                   <a href="https://github.com/YashPotdukhe25" target="_blank"><Github className="h-5 w-5" /></a>
                 </Button>
                 <Button variant="outline" size="icon" asChild>
-                  <a href="https://linkedin.com" target="_blank"><Linkedin className="h-5 w-5" /></a>
+                  <a href="https://www.linkedin.com/in/yashpotdukhe25" target="_blank" rel="noopener noreferrer"><Linkedin className="h-5 w-5" /></a>
                 </Button>
                 <Button variant="outline" size="icon" asChild>
                   <a href="mailto:yashpotdukhe25@gmail.com"><Mail className="h-5 w-5" /></a>
@@ -382,7 +382,7 @@ export default function Home() {
           </p>
           <div className="flex items-center gap-6">
             <a href="https://github.com/YashPotdukhe25" className="text-muted-foreground hover:text-primary transition-colors text-sm">GitHub</a>
-            <a href="#" className="text-muted-foreground hover:text-primary transition-colors text-sm">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/yashpotdukhe25" className="text-muted-foreground hover:text-primary transition-colors text-sm">LinkedIn</a>
             <a href="#" className="text-muted-foreground hover:text-primary transition-colors text-sm">Twitter</a>
           </div>
         </div>
