@@ -39,11 +39,6 @@ export default function Navbar() {
       }`}
     >
       <div className="container mx-auto px-6 py-4 flex justify-between items-center">
-        <Link href="/">
-          <span className="text-2xl font-bold font-heading tracking-tight text-foreground hover:text-primary transition-colors cursor-pointer">
-            YP<span className="text-primary">.</span>
-          </span>
-        </Link>
 
         {/* Desktop Nav */}
         <div className="hidden md:flex items-center space-x-8">
