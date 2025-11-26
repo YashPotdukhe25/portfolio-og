@@ -2,25 +2,18 @@
   "version": 2,
   "builds": [
     {
-      "src": "server/index-prod.ts",
-      "use": "@vercel/node",
-      "config": {
-        "includeFiles": [
-          "dist/**",
-          "server/**",
-          "shared/**"
-        ]
-      }
+      "src": "dist/index.js",
+      "use": "@vercel/node"
     }
   ],
   "routes": [
     {
       "src": "/api/(.*)",
-      "dest": "server/index-prod.ts"
+      "dest": "dist/index.js"
     },
     {
       "src": "/(.*)",
-      "dest": "server/index-prod.ts"
+      "dest": "dist/index.js"
     }
   ]
 }
