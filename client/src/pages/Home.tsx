@@ -112,9 +112,6 @@ export default function Home() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <Badge variant="secondary" className="mb-6 px-4 py-1.5 text-sm rounded-full border-primary/20 bg-primary/10 text-primary font-medium">
-              Available for Hire
-            </Badge>
             <h1 className="text-5xl md:text-7xl font-bold font-heading tracking-tight mb-6">
               Hi, I’m <span className="text-gradient">Yash Potdukhe</span>
             </h1>
