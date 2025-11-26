@@ -10,8 +10,7 @@ import {
   Terminal, 
   ExternalLink,
   ArrowRight,
-  Send,
-  Sparkles
+  Send
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -146,15 +145,6 @@ export default function Home() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
           >
-            <motion.div 
-              className="inline-flex items-center gap-2 mb-6 px-4 py-2 rounded-full bg-primary/10 border border-primary/20"
-              animate={{ scale: [1, 1.05, 1] }}
-              transition={{ duration: 3, repeat: Infinity }}
-            >
-              <Sparkles className="h-4 w-4 text-primary" />
-              <span className="text-primary text-sm font-medium">Welcome to my portfolio</span>
-            </motion.div>
-            
             <h1 className="text-6xl md:text-8xl font-bold font-heading tracking-tight mb-6">
               Hi, I'm <span className="text-gradient">Yash Potdukhe</span>
             </h1>
