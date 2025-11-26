@@ -152,7 +152,7 @@ export default function Home() {
               </p>
               <div className="flex gap-4">
                 <Button variant="outline" size="icon" asChild>
-                  <a href="https://github.com" target="_blank"><Github className="h-5 w-5" /></a>
+                  <a href="https://github.com/YashPotdukhe25" target="_blank"><Github className="h-5 w-5" /></a>
                 </Button>
                 <Button variant="outline" size="icon" asChild>
                   <a href="https://linkedin.com" target="_blank"><Linkedin className="h-5 w-5" /></a>
@@ -381,7 +381,7 @@ export default function Home() {
             © {new Date().getFullYear()} Yashuu Potdukhe. All rights reserved.
           </p>
           <div className="flex items-center gap-6">
-            <a href="#" className="text-muted-foreground hover:text-primary transition-colors text-sm">GitHub</a>
+            <a href="https://github.com/YashPotdukhe25" className="text-muted-foreground hover:text-primary transition-colors text-sm">GitHub</a>
             <a href="#" className="text-muted-foreground hover:text-primary transition-colors text-sm">LinkedIn</a>
             <a href="#" className="text-muted-foreground hover:text-primary transition-colors text-sm">Twitter</a>
           </div>
