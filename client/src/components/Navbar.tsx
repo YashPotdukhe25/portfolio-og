@@ -57,7 +57,7 @@ export default function Navbar() {
             </button>
           ))}
           <Button variant="default" size="sm" className="ml-4" asChild>
-            <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+            <a href="/resume.docx" target="_blank" rel="noopener noreferrer">
               Resume <FileText className="ml-2 h-4 w-4" />
             </a>
           </Button>
@@ -92,7 +92,7 @@ export default function Navbar() {
                 </button>
               ))}
               <Button className="w-full justify-start" variant="outline" asChild>
-                 <a href="/resume.pdf" target="_blank">Resume</a>
+                 <a href="/resume.docx" target="_blank">Resume</a>
               </Button>
             </div>
           </motion.div>
