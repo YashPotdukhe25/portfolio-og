@@ -380,7 +380,6 @@ export default function Home() {
           <div className="flex items-center gap-6">
             <a href="https://github.com/YashPotdukhe25" className="text-muted-foreground hover:text-primary transition-colors text-sm">GitHub</a>
             <a href="https://www.linkedin.com/in/yashpotdukhe25" className="text-muted-foreground hover:text-primary transition-colors text-sm">LinkedIn</a>
-            <a href="#" className="text-muted-foreground hover:text-primary transition-colors text-sm">Twitter</a>
           </div>
         </div>
       </footer>
