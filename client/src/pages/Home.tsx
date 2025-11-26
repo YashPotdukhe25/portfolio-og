@@ -116,7 +116,7 @@ export default function Home() {
               Hi, I’m <span className="text-gradient">Yash Potdukhe</span>
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto mb-8 font-light">
-              Web Developer & AI/ML Enthusiast crafting intelligent digital experiences.
+              I'm a Web Developer and AI/ML enthusiast focused on creating responsive websites and experimenting with machine learning concepts. I love solving problems and improving my skills.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <Button size="lg" className="text-lg px-8 rounded-full" onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}>
