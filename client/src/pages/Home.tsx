@@ -116,7 +116,7 @@ export default function Home() {
               Available for Hire
             </Badge>
             <h1 className="text-5xl md:text-7xl font-bold font-heading tracking-tight mb-6">
-              Hi, I’m <span className="text-gradient">Yashuu</span>
+              Hi, I’m <span className="text-gradient">Yash Potdukhe</span>
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto mb-8 font-light">
               Web Developer & AI/ML Enthusiast crafting intelligent digital experiences.
