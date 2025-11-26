@@ -324,7 +324,7 @@ export default function Home() {
                         <FormItem>
                           <FormLabel>Name</FormLabel>
                           <FormControl>
-                            <Input placeholder="John Doe" {...field} />
+                            <Input placeholder="Your Name" {...field} />
                           </FormControl>
                           <FormMessage />
                         </FormItem>
@@ -337,7 +337,7 @@ export default function Home() {
                         <FormItem>
                           <FormLabel>Email</FormLabel>
                           <FormControl>
-                            <Input placeholder="john@example.com" {...field} />
+                            <Input placeholder="Your Email" {...field} />
                           </FormControl>
                           <FormMessage />
                         </FormItem>
@@ -352,7 +352,7 @@ export default function Home() {
                         <FormLabel>Message</FormLabel>
                         <FormControl>
                           <Textarea 
-                            placeholder="Tell me about your project..." 
+                            placeholder="Your Message" 
                             className="min-h-[150px]" 
                             {...field} 
                           />
