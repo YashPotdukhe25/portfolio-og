@@ -375,7 +375,7 @@ export default function Home() {
       <footer className="py-8 border-t border-border bg-background">
         <div className="container px-6 mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-muted-foreground text-sm">
-            © {new Date().getFullYear()} Yashuu. All rights reserved.
+            © {new Date().getFullYear()} Yash Potdukhe. All rights reserved.
           </p>
           <div className="flex items-center gap-6">
             <a href="https://github.com/YashPotdukhe25" className="text-muted-foreground hover:text-primary transition-colors text-sm">GitHub</a>
