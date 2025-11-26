@@ -82,8 +82,8 @@ export default async function runApp(
   const port = parseInt(process.env.PORT || '5000', 10);
   server.listen({
     port,
-    host: "0.0.0.0",
-    reusePort: true,
+    host: process.platform === 'win32' ? 'localhost' : '0.0.0.0',
+    reusePort: process.platform !== 'win32',
   }, () => {
     log(`serving on port ${port}`);
   });
