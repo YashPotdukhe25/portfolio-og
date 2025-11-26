@@ -249,11 +249,6 @@ export default function Home() {
                       ))}
                     </div>
                   </CardContent>
-                  <CardFooter>
-                    <Button variant="ghost" className="w-full group">
-                      View Project <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
-                    </Button>
-                  </CardFooter>
                 </Card>
               </motion.div>
             ))}
